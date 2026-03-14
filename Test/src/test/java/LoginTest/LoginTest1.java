@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoginTest1 {
 
 	@Test
-	public void login2() {
+	public void loginTest() {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
